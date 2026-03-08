@@ -1,0 +1,108 @@
+import Image from "next/image"
+import Link from "next/link"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Productos | New Steet",
+  description: "Descubre toda nuestra coleccion de ropa urbana. Camisetas, sudaderas y mas."
+}
+
+const products = [
+  {
+    id: "cherry-corp-tee-black",
+    name: "Cherry Corp Tee",
+    category: "Camiseta",
+    price: 39.99,
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-aGtI0T6mHTXIdC8V05kumTqfMHptCG.png"
+  },
+  {
+    id: "cherry-corp-tee-black-v2",
+    name: "Cherry Corp Tee V2",
+    category: "Camiseta",
+    price: 39.99,
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DbSNZl6P3seir4XtSJ03o63QvPsTJv.png"
+  },
+  {
+    id: "steet-new-hoodie-grey",
+    name: "Steet New Hoodie",
+    category: "Sudadera",
+    price: 69.99,
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-KizNqNvzQrR8LjWxYGIzkyM4ZWNYWT.jpeg"
+  },
+  {
+    id: "nst-corp-hoodie-black",
+    name: "Nst C*rp Hoodie",
+    category: "Sudadera",
+    price: 74.99,
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-3Wy4rDeZk3APD3EiMtjwPT5zFmPGd0.png"
+  },
+  {
+    id: "nst-corp-hoodie-black-v2",
+    name: "Nst C*rp Hoodie V2",
+    category: "Sudadera",
+    price: 74.99,
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-TciJCatJvXjMJiDBG1bCT2ytSr44VJ.png"
+  },
+  {
+    id: "steet-new-hoodie-grey-stars",
+    name: "Steet New Stars Hoodie",
+    category: "Sudadera",
+    price: 72.99,
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-vqvOdkJxowUjqZV1XtR1mQ9isVzQJS.jpeg"
+  }
+]
+
+export default function ProductosPage() {
+  return (
+    <div className="min-h-screen pt-24 pb-16">
+      {/* Header */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+        <h1 className="font-[family-name:var(--font-playfair)] text-4xl md:text-5xl font-bold mb-4">
+          Productos
+        </h1>
+        <p className="text-muted-foreground text-lg max-w-2xl">
+          Explora nuestra coleccion completa de prendas. Cada pieza esta disenada 
+          con atencion al detalle y materiales de primera calidad.
+        </p>
+      </div>
+
+      {/* Products Grid */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {products.map((product) => (
+            <article key={product.id} className="group">
+              <Link href={`/productos/${product.id}`}>
+                <div className="relative aspect-square overflow-hidden bg-secondary mb-4">
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors" />
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-xs uppercase tracking-widest text-muted-foreground mb-1">
+                    {product.category}
+                  </span>
+                  <h2 className="text-lg font-medium mb-2 group-hover:text-muted-foreground transition-colors">
+                    {product.name}
+                  </h2>
+                  <span className="text-foreground font-medium">
+                    {product.price.toFixed(2)} EUR
+                  </span>
+                </div>
+              </Link>
+              <Link
+                href={`/productos/${product.id}`}
+                className="inline-flex items-center mt-4 px-6 py-2 border border-foreground text-sm uppercase tracking-widest hover:bg-foreground hover:text-background transition-all duration-300"
+              >
+                Ver Detalles
+              </Link>
+            </article>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}
