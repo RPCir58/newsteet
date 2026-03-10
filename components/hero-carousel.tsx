@@ -18,8 +18,8 @@ const slides = [
   },
   {
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-361Up36UqlgwQxufsgW1cg9sC1ETIO.png",
-    title: "Comercializamos desde",
-    subtitle: "Coruña"
+    title: "Coruña",
+    subtitle: "Trabajamos desde"
   },
   {
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-hQGVqvYbBkknARtR3KdJvV7CwyVZXs.png",

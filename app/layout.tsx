@@ -15,8 +15,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'New Steet | Streetwear Brand',
-  description: 'New Steet - Marca de ropa urbana con diseños exclusivos. Descubre nuestra colección de camisetas y sudaderas.',
+  title: 'New Steet',
+  description: 'New Steet, la marca de ropa emprendida por adolescentes en Coruña.',
   generator: 'v0.app',
   icons: {
     icon: '/favicon.ico',
