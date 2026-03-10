@@ -13,12 +13,10 @@ export default function HomePage() {
       <section className="py-24 px-4 bg-background">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-5xl font-bold mb-6 text-balance">
-            Define tu propio estilo
+            La empresa de ropa hecha por adolescentes
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed max-w-2xl mx-auto">
-            New Steet nace de la pasion por el streetwear y la cultura urbana. 
-            Cada prenda es una declaracion de identidad, disenada para quienes 
-            no siguen tendencias, las crean.
+            bla bla bla aqui iria un texto inspirador supongo
           </p>
         </div>
       </section>
@@ -51,7 +49,7 @@ export default function HomePage() {
             <div className="relative aspect-[3/4] overflow-hidden group">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8JwcssGJk016HImzmAK8NoBZhYRJ73.png"
-                alt="Cherry Corp Tee"
+                alt="camiseta cherry corp"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -59,7 +57,7 @@ export default function HomePage() {
             <div className="relative aspect-[3/4] overflow-hidden group">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-vqvOdkJxowUjqZV1XtR1mQ9isVzQJS.jpeg"
-                alt="Steet New Hoodie"
+                alt="sudadera new steet"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -67,7 +65,7 @@ export default function HomePage() {
             <div className="relative aspect-[3/4] overflow-hidden group">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-361Up36UqlgwQxufsgW1cg9sC1ETIO.png"
-                alt="Cherry Corp Style"
+                alt="camiseta cherry corp"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -75,7 +73,7 @@ export default function HomePage() {
             <div className="relative aspect-[3/4] overflow-hidden group">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-TciJCatJvXjMJiDBG1bCT2ytSr44VJ.png"
-                alt="Nst Corp Hoodie"
+                alt="nst corporation sudadera"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -89,7 +87,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-wFyy8EzZUNDATaRZZxTz11viBXIQq6.jpeg"
-            alt="New Steet Collection"
+            alt="colección new steet"
             fill
             className="object-cover"
           />
@@ -97,10 +95,10 @@ export default function HomePage() {
         </div>
         <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
           <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-5xl font-bold mb-6">
-            Unete a la comunidad
+            Únete a la comunidad
           </h2>
           <p className="text-white/80 text-lg mb-8 max-w-xl mx-auto">
-            Siguenos en Instagram para estar al dia de las ultimas novedades y lanzamientos exclusivos.
+            Síguenos en Instagram para estar al día de las últimas novedades y nuevos lanzamientos.
           </p>
           <a
             href="https://www.instagram.com/_newsteet_/"

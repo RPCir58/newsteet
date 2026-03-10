@@ -8,28 +8,28 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 const slides = [
   {
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8JwcssGJk016HImzmAK8NoBZhYRJ73.png",
-    title: "Cherry Corp",
-    subtitle: "Coleccion Primavera 2025"
+    title: "New Steet",
+    subtitle: "La marca de ropa emprendida por adolescentes"
   },
   {
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-vqvOdkJxowUjqZV1XtR1mQ9isVzQJS.jpeg",
-    title: "Steet New",
-    subtitle: "Sudaderas Premium"
+    title: "New Steet",
+    subtitle: "La marca de ropa emprendida por adolescentes"
   },
   {
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-361Up36UqlgwQxufsgW1cg9sC1ETIO.png",
-    title: "Cherry Corp",
-    subtitle: "Estilo Urbano"
+    title: "Comercializamos desde",
+    subtitle: "Coruña"
   },
   {
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-hQGVqvYbBkknARtR3KdJvV7CwyVZXs.png",
-    title: "Nst C*RP",
-    subtitle: "Nueva Temporada"
+    title: "titulo",
+    subtitle: "q pongo aqui"
   },
   {
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DbSNZl6P3seir4XtSJ03o63QvPsTJv.png",
-    title: "Cherry Corp",
-    subtitle: "Edicion Limitada"
+    title: "hola",
+    subtitle: "quien lea es gay"
   }
 ]
 
@@ -39,7 +39,7 @@ export function HeroCarousel() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length)
-    }, 5000)
+    }, 6000)
     return () => clearInterval(timer)
   }, [])
 
