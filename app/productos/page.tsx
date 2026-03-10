@@ -61,8 +61,7 @@ export default function ProductosPage() {
           Productos
         </h1>
         <p className="text-muted-foreground text-lg max-w-2xl">
-          Explora nuestra coleccion completa de prendas. Cada pieza esta disenada 
-          con atencion al detalle y materiales de primera calidad.
+          Explora nuestra colección completa de prendas. 
         </p>
       </div>
 

@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { useState } from "react"
 import { Menu, X, Instagram } from "lucide-react"
+import Image from "next/image"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -13,9 +14,13 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className="font-[family-name:var(--font-open-sans)] text-2xl font-bold tracking-tight text-foreground">
-              NEW STEET
-            </span>
+            <Image 
+              src="/logo.png" 
+              alt="New Steet Logo" 
+              width={120} 
+              height={40}
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
