@@ -12,14 +12,15 @@ export function Footer() {
               NEW STEET
             </h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Streetwear con actitud. Diseños exclusivos para quienes marcan tendencia.
+              Un par de adolescentes, intentando crear tendencia.
+              #newsteet
             </p>
           </div>
 
           {/* Links */}
           <div>
             <h4 className="text-sm uppercase tracking-widest mb-4 text-foreground">
-              Navegacion
+              Navegación
             </h4>
             <ul className="flex flex-col gap-2">
               <li>
@@ -43,7 +44,7 @@ export function Footer() {
           {/* Social */}
           <div>
             <h4 className="text-sm uppercase tracking-widest mb-4 text-foreground">
-              Siguenos
+              Síguenos
             </h4>
             <a 
               href="https://www.instagram.com/_newsteet_/" 
@@ -59,7 +60,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-border/30 text-center">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} New Steet. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} New Steet. Sitio web creado por <a href="https://linktr.ee/rp_circulo" style={{color:'#6464ff'}}>RP_Circulo</a>.
           </p>
         </div>
       </div>
