@@ -26,7 +26,7 @@ export default function HistoriaPage() {
             Nuestra Historia
           </h1>
           <p className="text-white/80 text-lg max-w-xl mx-auto">
-            El origen de una marca que nacio para romper moldes
+            El origen de una marca emprendida por adolescentes
           </p>
         </div>
       </section>
@@ -38,20 +38,14 @@ export default function HistoriaPage() {
             Los inicios
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-8">
-            New Steet nacio de la pasion por el streetwear y la cultura urbana. Lo que empezo 
-            como un sueno entre amigos, se convirtio en una marca que representa la autenticidad 
-            y el estilo de una nueva generacion. Desde el primer dia, nuestra mision ha sido 
-            crear prendas que permitan a cada persona expresar su individualidad.
+            New Steet nació de un grupo de amigos bla bla bla
           </p>
 
           <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold mb-6 text-foreground">
-            Nuestra filosofia
+            Nuestras ideas
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-8">
-            En New Steet creemos que la moda es una forma de expresion personal. No seguimos 
-            tendencias, las creamos. Cada diseno nace de la observacion de la calle, de la 
-            musica, del arte y de la energia de las ciudades. Nuestras colecciones reflejan 
-            esa esencia urbana que nos define.
+            bla bla bla ble ble ble blu blu blu
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-12">
@@ -77,20 +71,14 @@ export default function HistoriaPage() {
             Calidad ante todo
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-8">
-            Cada prenda de New Steet esta confeccionada con los mejores materiales. Trabajamos 
-            con proveedores de confianza y supervisamos cada etapa del proceso de produccion 
-            para garantizar que cada pieza cumpla con nuestros estandares de calidad. No es 
-            solo ropa, es una declaracion de estilo.
+            Las camisetas son de calidad premium bla bla bla
           </p>
 
           <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold mb-6 text-foreground">
-            La comunidad
+            Nuestra comunidad
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-8">
-            New Steet es mas que una marca, es una comunidad. Nos conectamos con personas que 
-            comparten nuestra vision del mundo, que valoran la autenticidad y que no tienen 
-            miedo de destacar. A traves de nuestras redes sociales y eventos, creamos espacios 
-            donde nuestra comunidad puede expresarse y conectar.
+            Queremos compartir momentos con la gente que nos da forma bla bla bla
           </p>
         </div>
 
@@ -98,10 +86,10 @@ export default function HistoriaPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
           <div className="text-center p-6 border border-border">
             <h3 className="font-[family-name:var(--font-playfair)] text-xl font-bold mb-2">
-              Autenticidad
+              Auténtico
             </h3>
             <p className="text-muted-foreground text-sm">
-              Cada diseno refleja nuestra vision unica del streetwear
+              Cada diseño refleja nuestra forma de pensar
             </p>
           </div>
           <div className="text-center p-6 border border-border">
@@ -109,7 +97,7 @@ export default function HistoriaPage() {
               Calidad
             </h3>
             <p className="text-muted-foreground text-sm">
-              Materiales premium y atencion al detalle en cada pieza
+              Materiales premium y atención a cada detalle
             </p>
           </div>
           <div className="text-center p-6 border border-border">
@@ -117,7 +105,7 @@ export default function HistoriaPage() {
               Comunidad
             </h3>
             <p className="text-muted-foreground text-sm">
-              Unidos por la pasion por el estilo urbano
+              Unidos por la pasión de la moda adolescente
             </p>
           </div>
         </div>

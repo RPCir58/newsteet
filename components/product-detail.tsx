@@ -83,7 +83,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
 
             {/* Size Selection */}
             <div className="mb-8">
-              <h3 className="text-sm uppercase tracking-widest mb-4">Talla</h3>
+              <h3 className="text-sm uppercase tracking-widest mb-4">Tallas disponibles</h3>
               <div className="flex flex-wrap gap-3">
                 {product.sizes.map((size) => (
                   <button
