@@ -10,46 +10,25 @@ export const metadata: Metadata = {
 const products = [
   {
     id: "cherry-corp-tee-black",
-    name: "Cherry Corp Tee",
+    name: "Camiseta Cherry Corp Negra",
     category: "Camiseta",
-    price: 39.99,
+    price: 19.99,
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-aGtI0T6mHTXIdC8V05kumTqfMHptCG.png"
   },
   {
-    id: "cherry-corp-tee-black-v2",
-    name: "Cherry Corp Tee V2",
-    category: "Camiseta",
-    price: 39.99,
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DbSNZl6P3seir4XtSJ03o63QvPsTJv.png"
-  },
-  {
     id: "steet-new-hoodie-grey",
-    name: "Steet New Hoodie",
+    name: "Sudadera New Steet Gris",
     category: "Sudadera",
-    price: 69.99,
+    price: 19.99,
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-KizNqNvzQrR8LjWxYGIzkyM4ZWNYWT.jpeg"
   },
   {
     id: "nst-corp-hoodie-black",
-    name: "Nst C*rp Hoodie",
+    name: "Sudadera Nst C*rp Negra",
     category: "Sudadera",
-    price: 74.99,
+    price: 19.99,
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-3Wy4rDeZk3APD3EiMtjwPT5zFmPGd0.png"
   },
-  {
-    id: "nst-corp-hoodie-black-v2",
-    name: "Nst C*rp Hoodie V2",
-    category: "Sudadera",
-    price: 74.99,
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-TciJCatJvXjMJiDBG1bCT2ytSr44VJ.png"
-  },
-  {
-    id: "steet-new-hoodie-grey-stars",
-    name: "Steet New Stars Hoodie",
-    category: "Sudadera",
-    price: 72.99,
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-vqvOdkJxowUjqZV1XtR1mQ9isVzQJS.jpeg"
-  }
 ]
 
 export default function ProductosPage() {
