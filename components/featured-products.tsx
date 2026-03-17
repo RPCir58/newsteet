@@ -4,20 +4,20 @@ import Link from "next/link"
 const featuredProducts = [
   {
     id: "cherry-corp-tee-black",
-    name: "Cherry Corp Tee",
-    price: 39.99,
+    name: "Camiseta Cherry Corp Negra",
+    price: 19.99,
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-aGtI0T6mHTXIdC8V05kumTqfMHptCG.png"
   },
   {
     id: "steet-new-hoodie-grey",
-    name: "Steet New Hoodie",
-    price: 69.99,
+    name: "Sudadera New Steet Gris",
+    price: 19.99,
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-KizNqNvzQrR8LjWxYGIzkyM4ZWNYWT.jpeg"
   },
   {
     id: "nst-corp-hoodie-black",
-    name: "Nst C*rp Hoodie",
-    price: 74.99,
+    name: "Camiseta Nst C*rp Negra",
+    price: 19.99,
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-3Wy4rDeZk3APD3EiMtjwPT5zFmPGd0.png"
   }
 ]
