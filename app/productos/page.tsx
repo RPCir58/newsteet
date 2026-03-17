@@ -67,7 +67,7 @@ export default function ProductosPage() {
                     {product.name}
                   </h2>
                   <span className="text-foreground font-medium">
-                    {product.price.toFixed(2)} EUR
+                    {product.price.toFixed(2)}€
                   </span>
                 </div>
               </Link>
