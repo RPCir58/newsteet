@@ -9,21 +9,21 @@ export const metadata: Metadata = {
 
 const products = [
   {
-    id: "cherry-corp-tee-black",
+    id: "1",
     name: "Camiseta Cherry Corp Negra",
     category: "Camiseta",
     price: 19.99,
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-aGtI0T6mHTXIdC8V05kumTqfMHptCG.png"
   },
   {
-    id: "steet-new-hoodie-grey",
+    id: "2",
     name: "Sudadera New Steet Gris",
     category: "Sudadera",
     price: 19.99,
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-KizNqNvzQrR8LjWxYGIzkyM4ZWNYWT.jpeg"
   },
   {
-    id: "nst-corp-hoodie-black",
+    id: "3",
     name: "Sudadera Nst C*rp Negra",
     category: "Sudadera",
     price: 19.99,

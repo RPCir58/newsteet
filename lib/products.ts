@@ -12,7 +12,7 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: "cherry-corp-tee-black",
+    id: "1",
     name: "Camiseta Cherry Corp Negra",
     category: "Camiseta",
     price: 19.99,
@@ -31,7 +31,7 @@ export const products: Product[] = [
     sizes: ["S", "M", "L", "XL", "XXL"]
   },
   {
-    id: "steet-new-hoodie-grey",
+    id: "2",
     name: "Sudadera New Steet Gris",
     category: "Sudadera",
     price: 19.99,
@@ -50,7 +50,7 @@ export const products: Product[] = [
     sizes: ["S", "M", "L", "XL", "XXL"]
   },
   {
-    id: "nst-corp-hoodie-black",
+    id: "3",
     name: "Camiseta Nst C*rp Negra",
     category: "Camiseta",
     price: 19.99,
