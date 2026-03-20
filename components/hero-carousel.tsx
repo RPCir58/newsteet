@@ -23,13 +23,13 @@ const slides = [
   },
   {
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-hQGVqvYbBkknARtR3KdJvV7CwyVZXs.png",
-    title: "titulo",
-    subtitle: "q pongo aqui"
+    title: "Compra ya",
+    subtitle: "Calidad, a un gran precio"
   },
   {
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DbSNZl6P3seir4XtSJ03o63QvPsTJv.png",
-    title: "hola",
-    subtitle: "quien lea es gay"
+    title: "Moda",
+    subtitle: "Pronto con más"
   }
 ]
 

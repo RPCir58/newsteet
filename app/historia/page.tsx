@@ -38,14 +38,15 @@ export default function HistoriaPage() {
             Los inicios
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-8">
-            New Steet nació de un grupo de amigos bla bla bla
+            Somos una marca formada por niños y adolescentes y diseñada para gente como nosotros.
+            Aún estamos en construcción, pero queremos ir creciendo poco a poco.
           </p>
 
           <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold mb-6 text-foreground">
-            Nuestras ideas
+            El resto, está por venir
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-8">
-            bla bla bla ble ble ble blu blu blu
+            Gracias por ayudarnos a crear una nueva historia. Nuestra nueva moda.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-12">
@@ -66,23 +67,8 @@ export default function HistoriaPage() {
               />
             </div>
           </div>
-
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold mb-6 text-foreground">
-            Calidad ante todo
-          </h2>
-          <p className="text-muted-foreground leading-relaxed mb-8">
-            Las camisetas son de calidad premium bla bla bla
-          </p>
-
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold mb-6 text-foreground">
-            Nuestra comunidad
-          </h2>
-          <p className="text-muted-foreground leading-relaxed mb-8">
-            Queremos compartir momentos con la gente que nos da forma bla bla bla
-          </p>
         </div>
-
-        {/* Values */}
+        {/* Values }
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
           <div className="text-center p-6 border border-border">
             <h3 className="font-[family-name:var(--font-playfair)] text-xl font-bold mb-2">
@@ -109,6 +95,7 @@ export default function HistoriaPage() {
             </p>
           </div>
         </div>
+        { End of Values */}
       </section>
     </div>
   )

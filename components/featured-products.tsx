@@ -6,7 +6,7 @@ const featuredProducts = [
     id: "cherry-corp-tee-black",
     name: "Camiseta Cherry Corp Negra",
     price: 19.99,
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-aGtI0T6mHTXIdC8V05kumTqfMHptCG.png"
+    image: "/ac2f4bcb-c971-4eaa-90fa-ea8d3eb8bfa6.png"
   },
   {
     id: "steet-new-hoodie-grey",
