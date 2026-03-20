@@ -16,7 +16,7 @@ export default function HomePage() {
             La empresa de ropa hecha por adolescentes
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed max-w-2xl mx-auto">
-            bla bla bla aqui iria un texto inspirador supongo
+            Objetivo: Emprender y crear una nueva moda que entiende a todos.
           </p>
         </div>
       </section>
