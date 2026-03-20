@@ -38,6 +38,7 @@ export const products: Product[] = [
     image: "/acfefb09-3a68-4810-a1f2-37fd9c5d6ea1.png",
     images: [
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-KizNqNvzQrR8LjWxYGIzkyM4ZWNYWT.jpeg",
+      "/acfefb09-3a68-4810-a1f2-37fd9c5d6ea1.png",
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-vqvOdkJxowUjqZV1XtR1mQ9isVzQJS.jpeg"
     ],
     description: "Sudadera con el clásico logo de la marca. Perfecta para el uso diario, marcando tendencia urbana.",

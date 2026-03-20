@@ -13,7 +13,7 @@ const products = [
     name: "Camiseta Cherry Corp Negra",
     category: "Camiseta",
     price: 19.99,
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-aGtI0T6mHTXIdC8V05kumTqfMHptCG.png"
+    image: "/acfefb09-3a68-4810-a1f2-37fd9c5d6ea1.png"
   },
   {
     id: "2",
